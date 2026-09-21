@@ -37,6 +37,7 @@ Current projects include:
 * Scalendars, a shared calendar platform for coordinating schedules and deadlines
 * LinkU, an internship matching platform
 * A campus routing application for KFUPM
+* An Educational project for students
 
 ## Technologies
 
@@ -47,10 +48,6 @@ Python · Java · C# · C++
 **AI and Data**
 
 Machine Learning · PyTorch · TensorFlow · NumPy · Jupyter Notebook
-
-**Tools**
-
-Git · GitHub · Tkinter
 
 ## Interests
 
