@@ -6,7 +6,7 @@ My interests include machine learning, efficient AI systems, attention mechanism
 
 ## Research
 
-I worked as an Artificial Intelligence Researcher with the University of California, Berkeley, investigating methods to improve the computational efficiency of AI attention mechanisms.
+I worked as an Artificial Intelligence Researcher with a professor from the University of California, Berkeley, investigating methods to improve the computational efficiency of AI attention mechanisms.
 
 My work focused on reducing attention computation and GPU memory usage while improving inference speed for long-context processing.
 
