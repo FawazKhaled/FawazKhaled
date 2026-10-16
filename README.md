@@ -1,60 +1,56 @@
 # Fawaz Alharbi
 
-Software Engineering student at King Fahd University of Petroleum and Engineering.
+**Aspiring ML engineer · Software Engineering student at KFUPM · Co-founder of [Fernas](https://fernasteam.com)**
 
-My interests include machine learning, efficient AI systems, attention mechanisms, and software development. I also work on research and student-focused software products.
+I build machine learning systems that are fast and small enough to use in real products. My focus is efficient AI: making models cheaper in memory and compute without losing accuracy.
+
+[LinkedIn](https://www.linkedin.com/in/fawaz-khaled-alharbi/) · [Email](mailto:fawaz1harbi@gmail.com) · [Fernas](https://fernasteam.com)
+
+---
 
 ## Research
 
-I worked as an Artificial Intelligence Researcher with a professor from the University of California, Berkeley, investigating methods to improve the computational efficiency of AI attention mechanisms.
+**Token Salience-Driven Pruning for Efficient Long-Context Processing in Large Language Models** *(manuscript)*
 
-My work focused on reducing attention computation and GPU memory usage while improving inference speed for long-context processing.
+I worked as an AI researcher with a professor from the University of California, Berkeley, on making attention in large language models more efficient. The work reduces attention computation and GPU memory use and speeds up inference on long inputs.
 
-I authored a manuscript titled:
+## Featured project
 
-**Token Salience-Driven Pruning for Efficient Long-Context Processing in Large Language Models**
+### [Face search with ArcFace and binary hashing](https://github.com/FawazKhaled/Facial-Feature-Extraction)
 
-## Projects
+This project turns each face into a 256-bit code, **64× smaller** than its 512-number ArcFace embedding. Faces can then be compared by counting how many bits differ. I compare three ways of making the codes (random projection, ITQ, and a hashing model I trained) on the same held-out test set. The project also includes a live webcam Face ID app built on top of the codes.
 
-### Best Country Prediction
+| Method (256-bit codes) | precision@10 | Average precision |
+|---|---|---|
+| Random projection | 0.9316 | 0.8712 |
+| ITQ | 0.9517 | 0.9399 |
+| Learned model (512 epochs) | 0.9472 | 0.9454 |
+| Float embeddings (no hashing) | 0.9540 | 0.9440 |
 
-A machine learning project that predicts a suitable country for a student based on educational and personal input data.
+**Python · PyTorch · InsightFace · ONNX Runtime · SQLite**
 
-**Python · Machine Learning · Jupyter Notebook**
+## Building at Fernas
 
-### Magic Square Game
+I co-founded [Fernas](https://fernasteam.com), a student-founded venture studio in Dhahran that turns students' ideas into real products. Our projects:
 
-A desktop application that allows users to create and validate magic squares of configurable dimensions.
+- **Scalendars:** a shared calendar for coordinating schedules and deadlines
+- **LinkU:** an internship matching platform
+- **KFUPM Masar:** campus routing for KFUPM
+- **MenaBonka:** a platform that connects japanese companies to saudi talent
 
-**Python · Tkinter · NumPy**
+I also built the [Fernas website](https://github.com/FawazKhaled/Fernas-Website).
 
-## Currently Working On
+## Learning in public
 
-I am a co-founder of Fernas, a student-run software team building products for university students.
+- **[KAUSTxAI-Training](https://github.com/FawazKhaled/KAUSTxAI-Training):** a step-by-step ladder of projects, from a tested Python records manager to exploratory data analysis with pandas, on the way to machine learning and neural networks.
+- **[Best Country Prediction](https://github.com/FawazKhaled/Best-Country-prediction):** a random forest model that suggests a country for a student based on their educational and personal data.
+- **[Magic Square Game](https://github.com/FawazKhaled/Magic-Square-Game):** a Tkinter desktop app for building and checking magic squares of any size.
 
-Current projects include:
+## Tools
 
-* Scalendars, a shared calendar platform for coordinating schedules and deadlines
-* LinkU, an internship matching platform
-* A campus routing application for KFUPM
-* An Educational project for students
-
-## Technologies
-
-**Languages**
-
-Python · Java · C# · C++
-
-**AI and Data**
-
-Machine Learning · PyTorch · TensorFlow · NumPy · Jupyter Notebook
+**ML and data:** PyTorch · TensorFlow · scikit-learn · NumPy · pandas · ONNX Runtime · InsightFace
+**Languages:** Python · Java · C# · C++
 
 ## Interests
 
-Efficient AI · Machine Learning · Attention Mechanisms · Software Engineering · Healthcare Technology
-
-## Links
-
-* LinkedIn: https://www.linkedin.com/in/fawaz-khaled-alharbi/
-* GitHub: https://github.com/FawazKhaled
-* Email: [fawaz1harbi@gmail.com](mailto:fawaz1harbi@gmail.com)
+Efficient AI · attention mechanisms · model compression · retrieval and embeddings · healthcare technology
